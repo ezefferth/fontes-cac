@@ -2,7 +2,7 @@
 
 with open('arquivo_ordenado_final.txt', 'r') as file:
   linhas = file.readlines()
-
+g
 
 qtd1 = 0
 qtd2 = 0
