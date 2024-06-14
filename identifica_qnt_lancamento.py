@@ -34,11 +34,11 @@ valor_errado5 = 0
 valor_errado6 = 0
 
 def limpar_e_converter(valor_str):
-    # Remover espaços à esquerda
+
     valor_str = valor_str.lstrip()
-    # Substituir vírgula por ponto
+ 
     valor_str = valor_str.replace(',', '.')
-    # Remover pontos extras
+
     partes = valor_str.split('.')
     if len(partes) > 2:
         valor_str = ''.join(partes[:-1]) + '.' + partes[-1]
